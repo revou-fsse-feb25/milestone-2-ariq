@@ -31,7 +31,33 @@ Play Rock, Paper, Scissors against the computer. Tracks your score and gives vis
 ### 3. 🖱️ Clicker Game
 Click as fast as you can in 10 seconds! A fast-paced game that tracks your clicks and resets with a single tap.
 
+
+
 ---
 
-## 📁 Folder Structure
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3 (with shared global styling)
+- Vanilla JavaScript (ES6)
+- Git & GitHub for version control and deployment
+
+---
+
+## 🧠 Key Features & Skills Demonstrated
+
+- DOM manipulation & event handling
+- JavaScript functions, conditionals, loops, and arrays
+- User feedback, game logic, and UI interactivity
+- Responsive design with Flexbox and Grid
+- GitHub Pages deployment
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repo:
+```bash
+git clone https://github.com/revou-fsse-feb25/milestone-2-ariq.git
+
 
