@@ -5,14 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Number Guessing Game</title>
   <link rel="stylesheet" href="number-guessing.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="shared-game-style.css" />
+
 </head>
 <body>
   <div class="container">
     <h1>🔢 Number Guessing Game</h1>
     <p>Guess the number between <strong>1 and 100</strong>.</p>
-    <p>You have <span id="remaining">5</span> attempts left.</p>
+    <p>You have <span id="remaining">7</span> attempts left.</p>
     
-    <input type="number" id="guessInput" placeholder="Enter your guess" min="1" max="100" />
+    <input type="number" id="guessInput" placeholder="Enter your guess" min="1" max="100" /><br>
     <button id="guessBtn">Submit Guess</button>
     
     <p id="feedback"></p>

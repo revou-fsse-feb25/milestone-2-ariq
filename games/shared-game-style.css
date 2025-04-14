@@ -1,0 +1,69 @@
+/* Reset + Font */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to bottom right, #f1f5f9, #e2e8f0);
+    color: #1f2937;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 14px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p, h2, h3 {
+    margin-bottom: 1rem;
+  }
+  
+  input, button {
+    padding: 0.6rem 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #3b82f6;
+  }
+  
+  button {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background: #2563eb;
+    transform: scale(1.03);
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: 600;
+  }
+  

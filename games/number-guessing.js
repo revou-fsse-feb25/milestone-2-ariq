@@ -1,5 +1,5 @@
 const randomNumber = Math.floor(Math.random() * 100) + 1;
-let attempts = 5;
+let attempts = 7;
 
 const guessInput = document.getElementById("guessInput");
 const guessBtn = document.getElementById("guessBtn");
