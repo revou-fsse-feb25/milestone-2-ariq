@@ -23,13 +23,13 @@ Welcome to **RevoFun**, a fictional gaming company built as part of the RevoU Fu
 ## 🕹️ Included Games
 
 ### 1. 🔢 Number Guessing Game
-Guess a number between 1 and 100 within 5 attempts. Get hints like "Too High" or "Too Low" with each guess.
+Guess a number between 1 and 100 within 7 attempts. Get hints like "Too High" or "Too Low" with each guess.
 
 ### 2. 🪨📄✂️ Rock Paper Scissors
 Play Rock, Paper, Scissors against the computer. Tracks your score and gives visual feedback.
 
 ### 3. 🖱️ Clicker Game
-Click as fast as you can in 10 seconds! A fast-paced game that tracks your clicks and resets with a single tap.
+Click as fast as you can in 15 seconds! A fast-paced game that tracks your clicks and resets with a single tap.
 
 
 
