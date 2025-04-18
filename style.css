@@ -42,7 +42,7 @@ header {
   margin-bottom: 2rem;
 }
 
-/* Fancy nav buttons */
+/* nav buttons */
 nav ul {
   list-style: none;
   display: flex;
@@ -68,6 +68,48 @@ nav a:hover {
   box-shadow: 0 0 20px rgba(139, 92, 246, 0.6), 0 0 32px rgba(139, 92, 246, 0.4);
   background: linear-gradient(to right, #6d28d9, #7c3aed);
 }
+
+
+.about-company {
+  position: relative;
+  margin: 4rem auto;
+  padding: 2.5rem 2rem;
+  max-width: 800px;
+  text-align: center;
+  border-radius: 1.5rem;
+  background: rgba(30, 41, 59, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 0 24px rgba(139, 92, 246, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  animation: fadeUp 1s ease-out;
+  transition: box-shadow 0.4s ease;
+}
+
+.about-company:hover {
+  box-shadow: 0 0 32px rgba(168, 85, 247, 0.5), 0 0 64px rgba(139, 92, 246, 0.3);
+}
+
+.about-company h2 {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #a855f7, #22d3ee, #a855f7);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shine 6s linear infinite;
+}
+
+.about-company p {
+  font-size: 1.1rem;
+  color: #e0e7ff;
+  line-height: 1.8;
+  animation: fadeIn 1.5s ease-in-out;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+
 
 
 /* Main */
@@ -263,5 +305,33 @@ button:active {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+
+/* for the about-company */
+@keyframes shine {
+  to {
+    background-position: -200% center;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
