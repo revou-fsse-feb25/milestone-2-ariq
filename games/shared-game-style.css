@@ -1,4 +1,4 @@
-/* Reset + Font */
+/* Reset + Typography */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,56 +6,59 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
-  background: linear-gradient(to bottom right, #f0f9ff, #e0f2fe);
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background: 
+    linear-gradient(to bottom right, rgba(240, 244, 248, 0.85), rgba(226, 232, 240, 0.85)),
+    url('../images/pexels-lulizler.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: #1e293b;
-  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
   min-height: 100vh;
 }
 
-/* Card Layout */
+/* Container Card */
 .container {
-  background: white;
+  background: rgba(255, 255, 255, 0.95);
   padding: 3rem 2rem;
   border-radius: 16px;
-  max-width: 600px;
+  max-width: 500px;
   width: 100%;
   text-align: center;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
 }
 
-/* Typography */
+/* Headings */
 h1 {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
+  font-size: 2rem;
   color: #8b5cf6;
+  margin-bottom: 1.5rem;
 }
 
 h2, h3, p {
   margin-bottom: 1rem;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 /* Inputs */
 input[type="number"],
 input[type="text"] {
-  padding: 0.6rem;
-  width: 60%;
+  padding: 0.6rem 1rem;
   margin-top: 1rem;
-  border-radius: 8px;
   border: 1px solid #cbd5e1;
+  border-radius: 8px;
   font-size: 1rem;
+  width: 80%;
   transition: 0.3s ease;
 }
 
 input:focus {
   outline: none;
   border-color: #8b5cf6;
-  box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.2);
+  box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.3);
 }
 
 /* Buttons */
@@ -68,7 +71,7 @@ button {
   background-color: #8b5cf6;
   color: white;
   cursor: pointer;
-  transition: 0.2s ease-in-out;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
@@ -76,11 +79,11 @@ button:hover {
   transform: scale(1.05);
 }
 
-/* Links */
+/* Link Back */
 a {
-  text-decoration: none;
   display: inline-block;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
+  text-decoration: none;
   color: #0ea5e9;
   font-weight: 600;
   transition: color 0.3s ease;
@@ -90,10 +93,16 @@ a:hover {
   color: #0284c7;
 }
 
-/* Feedback Text */
+/* Score/Feedback Area */
 #feedback {
   font-size: 1.1rem;
-  margin-top: 1rem;
   font-weight: bold;
+  margin-top: 1.2rem;
   color: #334155;
+}
+
+.scoreboard {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #1e293b;
 }
